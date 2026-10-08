@@ -23,7 +23,7 @@ Run a demo:   java ConstructorDemo   (constructors, chaining, initialiser blocks
 Classes:      Person, Ticket, Rectangle, TempConverter
 
 
-# Lab 3: Encapsulation and Access Modifiers (Java)
+# Lab 3: Encapsulation and Access Modifiers 
 
 Compile all 
   
