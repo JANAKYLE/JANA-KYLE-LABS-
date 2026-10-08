@@ -23,5 +23,22 @@ Run a demo:   java ConstructorDemo   (constructors, chaining, initialiser blocks
 Classes:      Person, Ticket, Rectangle, TempConverter
 
 
-# Lab 3: 
+# Lab 3: Encapsulation and Access Modifiers (Java)
+
+Compile all 
+  
+     javac -d out *.java 
+
+Run a demo 
+  java -cp out BankAccountDemo
+  java -cp out StudentDemo
+  java -cp out ProductDemo           
+  java -cp out PersonDemo            
+  java -cp out lab3.access.SamePackageTest
+  java -cp out lab3.other.SubclassTest
+  java -cp out lab3.other.UnrelatedTest
+
+
+
+
 
