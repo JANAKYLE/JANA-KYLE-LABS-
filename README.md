@@ -39,6 +39,19 @@ Run a demo
   java -cp out lab3.other.UnrelatedTest
 
 
+  # Lab 4: Inheritance (Java)
+
+Compile all:  javac *.java
+Run a demo:   java InheritanceDemo   (Employee, Manager, Developer, Contractor)
+              java ConstructorOrder  (constructor call order)
+              java ObjectDemo        (java.lang.Object methods)
+              java CompositionDemo   (Car has-a Engine, Library)
+              java ShapeDemo         (Exercise 1: Shape, Circle, RectangleShape)
+
+              
+
+
+
 
 
 
