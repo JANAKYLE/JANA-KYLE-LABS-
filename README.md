@@ -39,7 +39,7 @@ Run a demo
   java -cp out lab3.other.UnrelatedTest
 
 
-  # Lab 4: Inheritance (Java)
+  # Lab 4: Inheritance 
 
 Compile all:  javac *.java
 Run a demo:   java InheritanceDemo   (Employee, Manager, Developer, Contractor)
