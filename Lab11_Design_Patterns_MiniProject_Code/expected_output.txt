@@ -1,0 +1,51 @@
+=== Task Manager ===
+
+--- Singleton ---
+Same instance every time? true
+
+--- Observer: register listeners, then add tasks ---
+  [LOG] ADDED: Finish OOP lab
+  [LOG] ADDED: Buy data bundle
+  [LOG] ADDED: Revise exceptions
+  [LOG] ADDED: Email lecturer
+
+--- Exceptions: bad input and missing task ---
+  Rejected: Title must not be empty
+  Rejected: Invalid title: Too, many, commas
+  [LOG] COMPLETED: Finish OOP lab
+  Error: No task with id 99
+
+--- Strategy: swap the sorting algorithm ---
+By priority:
+  #4 [ ] Email lecturer     HIGH
+  #1 [x] Finish OOP lab     HIGH
+  #3 [ ] Revise exceptions  MEDIUM
+  #2 [ ] Buy data bundle    LOW
+By title:
+  #2 [ ] Buy data bundle    LOW
+  #4 [ ] Email lecturer     HIGH
+  #1 [x] Finish OOP lab     HIGH
+  #3 [ ] Revise exceptions  MEDIUM
+
+--- Factory: choose an exporter by name ---
+text export:
+#1 [x] Finish OOP lab     HIGH
+#2 [ ] Buy data bundle    LOW
+#3 [ ] Revise exceptions  MEDIUM
+#4 [ ] Email lecturer     HIGH
+csv export:
+1,Finish OOP lab,HIGH,true
+2,Buy data bundle,LOW,false
+3,Revise exceptions,MEDIUM,false
+4,Email lecturer,HIGH,false
+Factory error: Unknown exporter: pdf
+
+--- File I/O: save, reload ---
+Reloaded 4 tasks:
+  #1 [x] Finish OOP lab     HIGH
+  #2 [ ] Buy data bundle    LOW
+  #3 [ ] Revise exceptions  MEDIUM
+  #4 [ ] Email lecturer     HIGH
+Next id continues at: 5
+
+Stats: 4 added, 1 completed
