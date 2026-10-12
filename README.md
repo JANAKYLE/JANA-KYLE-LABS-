@@ -48,6 +48,53 @@ Run a demo:   java InheritanceDemo   (Employee, Manager, Developer, Contractor)
               java CompositionDemo   (Car has-a Engine, Library)
               java ShapeDemo         (Exercise 1: Shape, Circle, RectangleShape)
 
+
+# Lab 5 code 
+
+Compile:  javac *.java
+Run:      java PolymorphismDemo
+
+
+# Lab 6 code 
+
+Compile:  javac *.java
+Run:      java AbstractionDemo
+
+
+# Lab 7 code 
+
+Compile:  javac *.java
+Run:      java ExceptionDemo
+
+
+# Lab 8 code 
+
+Compile:  javac *.java
+Run:      java GenericsDemo
+
+
+# Lab 9 code 
+
+Compile:  javac *.java
+Run:      java Lab9Demo
+
+
+# Lab 10 code 
+
+Compile:  javac *.java
+Run:      java Lab10Demo
+
+
+# Lab 11 code 
+
+Compile:  javac *.java
+Run:      java TaskManagerApp
+
+
+
+
+
+
               
 
 
